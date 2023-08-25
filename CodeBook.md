@@ -7,7 +7,7 @@ A full description is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones "
 
-****Variables: ****
+**Variables:** 
 x_test, x_train, y_test, y_train, subject_train and subject_test contain the data from the files.
 x_data, y_data and subject_data merge the testing and the training data together. 
 
