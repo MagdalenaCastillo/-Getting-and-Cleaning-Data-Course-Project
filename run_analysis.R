@@ -37,3 +37,4 @@ names(merged_data)<-gsub("-freq()", "Frequency", names(merged_data))
 #create a second, independent tidy data set with the average of each variable for each activity and each subject
 final_data <- merged_data %>% group_by(subject, activity) %>% summarise_all(mean)
 
+write.table(final_data, "final_data.txt", row.names = FALSE)
